@@ -7,67 +7,67 @@ import WhyChooseUs from "../../components/home-one/why-choose-us";
 const services = [
   {
     id: crypto.randomUUID(),
-    title: "UI/UX Design",
+    title: "Brand & Identity",
     description:
       " Designing seamless user interfaces and experiences that make digital products and apps more accessible and engaging.",
     icon: "icon-design-tools",
-    navigatePage: "ui-ux-design",
+    navigatePage: "brand-identity",
   },
   {
     id: crypto.randomUUID(),
-    title: "Graphic Design",
+    title: "Ad Films & Commercials",
     description:
       "Building visual elements like logos, marketing materials, page layouts, brochures, and branded collateral.",
     icon: "icon-branding",
-    navigatePage: "graphic-design",
+    navigatePage: "ad-films-commercials",
   },
   {
     id: crypto.randomUUID(),
-    title: "Web Design",
+    title: "Content Engine",
     description:
       "Creating websites that are visually appealing, user-friendly, and fully optimized for functionality and flow.",
     icon: "icon-web",
-    navigatePage: "web-design",
+    navigatePage: "content-engine",
   },
   {
     id: crypto.randomUUID(),
-    title: "Motion Graphics",
+    title: "Social Media Growth",
     description:
       "Designing animated visuals and videos for marketing, promotion, and entertainment to engage your audience.",
     icon: "icon-design-thinking",
-    navigatePage: "motion-graphics",
+    navigatePage: "social-media-growth",
   },
   {
     id: crypto.randomUUID(),
-    title: "Packaging Design",
+    title: "Performance Funnel",
     description:
       " Crafting product packaging that protects, attracts, and creates a strong presence on retail shelves.",
     icon: "icon-layers",
-    navigatePage: "packaging-design",
+    navigatePage: "performance-funnel",
   },
   {
     id: crypto.randomUUID(),
-    title: "Logo and Branding",
+    title: "Web & App Build",
     description:
       " Developing or refreshing logos and building consistent visual identities, business cards, and brand kits.",
     icon: "icon-rating-stars-1",
-    navigatePage: "logo-and-branding",
+    navigatePage: "web-app-build",
   },
   {
     id: crypto.randomUUID(),
-    title: "Illustration",
+    title: "Founder Branding",
     description:
       " Producing original illustrations for books, websites, marketing campaigns, editorials, and more.",
     icon: "icon-chef",
-    navigatePage: "illustration",
+    navigatePage: "founder-branding",
   },
   {
     id: crypto.randomUUID(),
-    title: "Product Design",
+    title: "Advisory & Growth",
     description:
       "Shaping the appearance and usability of physical products with a focus on design, function, and ergonomics.",
     icon: "icon-target-1",
-    navigatePage: "product-design",
+    navigatePage: "advisory-growth",
   },
   {
     id: crypto.randomUUID(),

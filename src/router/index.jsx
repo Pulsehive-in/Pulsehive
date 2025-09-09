@@ -30,13 +30,13 @@ import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
 import SinglePortfolio from "../page/portfolio/SinglePortfolio";
 import Service from "../page/service";
 import BrandIdentity from "../page/service/BrandIdentity.jsx";
-import GraphicDesign from "../page/service/AdvisoryGrowth.jsx";
-import WebDesign from "../page/service/AdFilmsCommercials.jsx";
-import MotionGraphics from "../page/service/PerformanceFunnel.jsx";
-import PackagingDesign from "../page/service/SocialMediaGrowth.jsx";
-import LogoAndBranding from "../page/service/WebAppBuild.jsx";
-import Illustration from "../page/service/FounderBranding.jsx";
-import ProductDesign from "../page/service/ContentEngine.jsx";
+import AdFilmsCommercials from "../page/service/AdFilmsCommercials.jsx";
+import ContentEngine from "../page/service/ContentEngine.jsx";
+import SocialMediaGrowth from "../page/service/SocialMediaGrowth.jsx";
+import PerformanceFunnel from "../page/service/PerformanceFunnel.jsx";
+import WebAppBuild from "../page/service/WebAppBuild.jsx";
+import FounderBranding from "../page/service/FounderBranding.jsx";
+import AdvisoryGrowth from "../page/service/AdvisoryGrowth.jsx";
 import AutomationAndMartech from "../page/service/AutomationAndMartech.jsx";
 import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
@@ -96,36 +96,36 @@ export const router = createBrowserRouter([
             element: <Service />,
           },
           {
-            path: "/ui-ux-design",
+            path: "/brand-identity",
             element: <BrandIdentity />,
           },
           {
-            path: "/graphic-design",
-            element: <GraphicDesign />,
+            path: "/ad-films-commercials",
+            element: <AdFilmsCommercials />,
           },
           {
-            path: "/web-design",
-            element: <WebDesign />,
+            path: "/content-engine",
+            element: <ContentEngine />,
           },
           {
-            path: "/motion-graphics",
-            element: <MotionGraphics />,
+            path: "/social-media-growth",
+            element: <SocialMediaGrowth />,
           },
           {
-            path: "/packaging-design",
-            element: <PackagingDesign />,
+            path: "/performance-funnel",
+            element: <PerformanceFunnel />,
           },
           {
-            path: "/logo-and-branding",
-            element: <LogoAndBranding />,
+            path: "/web-app-build",
+            element: <WebAppBuild />,
           },
           {
-            path: "/illustration",
-            element: <Illustration />,
+            path: "/founder-branding",
+            element: <FounderBranding />,
           },
           {
-            path: "/product-design",
-            element: <ProductDesign />,
+            path: "/advisory-growth",
+            element: <AdvisoryGrowth />,
           },
           {
             path: "/automation-and-Martech",
