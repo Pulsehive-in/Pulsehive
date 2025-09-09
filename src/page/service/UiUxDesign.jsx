@@ -1,14 +1,17 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Testimonial from "../../components/home-one/testimonial";
-import ServiceDetails from "../../components/service/ServiceDetails";
+// import BrandIdentityPage from "../components/service/BrandIdentityPage.jsx";
+import BrandIdentityPage from "./"
 function UiUxDesign() {
   return (
     <>
       <BreadCrumb title="Service Details" />
-      <ServiceDetails />
+      <BrandIdentityPage />
       <Testimonial />
     </>
   );
 }
 
 export default UiUxDesign;
+
+
