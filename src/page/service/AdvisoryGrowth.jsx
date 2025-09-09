@@ -4,7 +4,7 @@ import AdvisoryGrowthPage from "../service/AdvisoryGrowthPage";
 function GraphicDesign() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Advisory & Growth" />
       <AdvisoryGrowthPage />
       <Testimonial />
     </>

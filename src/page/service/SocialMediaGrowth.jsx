@@ -4,7 +4,7 @@ import SocialMediaGrowthPage from "../service/SocialmediaGrowthPage";
 function PackagingDesign() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Social Media Growth" />
       <SocialMediaGrowthPage />
       <Testimonial />
     </>

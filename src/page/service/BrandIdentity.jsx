@@ -4,7 +4,7 @@ import BrandIdentityPage from "./BrandIdentityPage.jsx";
 function UiUxDesign() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Brand & Identity" />
       <BrandIdentityPage />
       <Testimonial />
     </>

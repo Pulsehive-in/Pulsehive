@@ -4,7 +4,7 @@ import WebAppBuildPage from "../service/WebAppBuildPage";
 function LogoAndBranding() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Web & App Build" />
       <WebAppBuildPage />
       <Testimonial />
     </>

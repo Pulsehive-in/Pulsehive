@@ -4,7 +4,7 @@ import FounderBrandingPage from "../service/FounderBrandingPage";
 function Illustration() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Founder Branding" />
       <FounderBrandingPage />
       <Testimonial />
     </>

@@ -4,7 +4,7 @@ import PerformanceFunnelPage from "../service/PerformanceFunnelPage.jsx";
 function MotionGraphics() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Performance Funnel" />
       <PerformanceFunnelPage />
       <Testimonial />
     </>

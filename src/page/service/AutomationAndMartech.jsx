@@ -4,7 +4,7 @@ import AutomationMartechPage from "../service/AutomationMartechPage.jsx";
 function AutomationAndMartech() {
   return (
     <>
-      <BreadCrumb title="Service Details" />
+      <BreadCrumb title="Automation & Martech" />
       <AutomationMartechPage />
       <Testimonial />
     </>
