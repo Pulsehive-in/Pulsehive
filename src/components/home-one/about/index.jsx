@@ -12,20 +12,19 @@ function About() {
             <div className="col-lg-7">
               <h2>
                 <span className="aximo-title-animation">
-                  We don’t just
+                  We shape your
                   <span className="aximo-title-icon">
                     <img src={Star2Img} alt="Star2Img" />
                   </span>
                 </span>{" "}
-                create, we elevate
+                growth journey
               </h2>
             </div>
             <div className="col-lg-4 offset-lg-1 d-flex align-items-center">
               <p>
-                At RADS, we don’t just deliver services—we build partnerships.
-                By understanding your goals, audience, and vision, we craft
-                strategies that create lasting impact across digital, design,
-                and media.
+                We work hand in hand with our clients to understand their goals,
+                target audience, unique requirements, and deliver smart creative
+                strategies.
               </p>
             </div>
           </div>

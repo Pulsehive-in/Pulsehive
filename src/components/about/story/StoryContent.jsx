@@ -1,32 +1,34 @@
 function StoryContent() {
-	return (
-		<div className="row">
-			<div className="col-lg-6">
-				<h3>Our core vision</h3>
-				<p>
-					Empowering businesses to create impactful and visually stunning brand experiences that captivate
-					audiences and drive success in the digital age.{" "}
-				</p>
-				<p>
-					Our team consists of experienced designers, developers. We have a wide variety of skills and
-					backgrounds, allowing us to tackle projects of all sizes and complexities. We believe in the power
-					of imagination and innovation.
-				</p>
-			</div>
-			<div className="col-lg-6">
-				<h3>Our main mission</h3>
-				<p>
-					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
-					provide innovative and creative design solutions.{" "}
-				</p>
-				<p>
-					We are committed to creating designs that inspire, connect & our clients in the marketplace. Our
-					focus is on understanding. Our clients' unique needs and delivery designs that not only meet but
-					exceed their expectations.
-				</p>
-			</div>
-		</div>
-	);
+  return (
+    <div className="row">
+      <div className="col-lg-6">
+        <h3>Our vision</h3>
+        <p>
+          Helping brands craft meaningful and visually engaging experiences that
+          attract audiences and deliver measurable growth in the digital era.{" "}
+        </p>
+        <p>
+          Our team is made up of skilled strategists, designers, and developers.
+          We bring together diverse expertise to handle projects of every scale
+          and challenge. We believe in the strength of ideas and the power of
+          execution.
+        </p>
+      </div>
+      <div className="col-lg-6">
+        <h3>Our mission</h3>
+        <p>
+          Our mission is to partner with brands of every size, from fresh
+          startups to established enterprises, delivering smart and impactful
+          design solutions.{" "}
+        </p>
+        <p>
+          We aim to create strategies that inspire, connect, and engage. Our
+          focus is on clarity and understanding—transforming unique client needs
+          into results that go beyond expectations.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default StoryContent;

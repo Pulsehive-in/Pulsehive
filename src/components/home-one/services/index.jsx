@@ -8,7 +8,7 @@ function Services({ services }) {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						We provide effective
+						We craft powerful
 						<span className="aximo-title-animation">
 							design solutions
 							<span className="aximo-title-icon">

@@ -5,74 +5,90 @@ import Services from "../../components/home-one/services";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
 
 const services = [
-	{
-		id: crypto.randomUUID(),
-		title: "UI/UX Design",
-		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Motion Graphics",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description:
-			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
-		icon: "icon-layers",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-rating-stars-1",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Illustration",
-		description:
-			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
-		icon: "icon-chef",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description:
-			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
-		icon: "icon-target-1",
-	},
+  {
+    id: crypto.randomUUID(),
+    title: "UI/UX Design",
+    description:
+      " Designing seamless user interfaces and experiences that make digital products and apps more accessible and engaging.",
+    icon: "icon-design-tools",
+    navigatePage: "ui-ux-design",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Graphic Design",
+    description:
+      "Building visual elements like logos, marketing materials, page layouts, brochures, and branded collateral.",
+    icon: "icon-branding",
+    navigatePage: "graphic-design",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Web Design",
+    description:
+      "Creating websites that are visually appealing, user-friendly, and fully optimized for functionality and flow.",
+    icon: "icon-web",
+    navigatePage: "web-design",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Motion Graphics",
+    description:
+      "Designing animated visuals and videos for marketing, promotion, and entertainment to engage your audience.",
+    icon: "icon-design-thinking",
+    navigatePage: "motion-graphics",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Packaging Design",
+    description:
+      " Crafting product packaging that protects, attracts, and creates a strong presence on retail shelves.",
+    icon: "icon-layers",
+    navigatePage: "packaging-design",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Logo and Branding",
+    description:
+      " Developing or refreshing logos and building consistent visual identities, business cards, and brand kits.",
+    icon: "icon-rating-stars-1",
+    navigatePage: "logo-and-branding",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Illustration",
+    description:
+      " Producing original illustrations for books, websites, marketing campaigns, editorials, and more.",
+    icon: "icon-chef",
+    navigatePage: "illustration",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Product Design",
+    description:
+      "Shaping the appearance and usability of physical products with a focus on design, function, and ergonomics.",
+    icon: "icon-target-1",
+    navigatePage: "product-design",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Automation & Martech",
+    description:
+      "Shaping the appearance and usability of physical products with a focus on design, function, and ergonomics.",
+    icon: "icon-target-1",
+    navigatePage: "automation-and-martech",
+  },
 ];
 
 function ServicePage() {
-	return (
-		<>
-			<BreadCrumb title="Service" />
-			<Services services={services} />
-			<AutoSlider />
-			<WhyChooseUs />
-			<TwoColumnFaq />
-		</>
-	);
+  return (
+    <>
+      <BreadCrumb title="Service" />
+      <Services services={services} />
+      <AutoSlider />
+      <WhyChooseUs />
+      <TwoColumnFaq />
+    </>
+  );
 }
 
 export default ServicePage;
