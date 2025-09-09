@@ -1,7 +1,7 @@
 import SingleImg from "../../assets/images/service/service-single.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import FadeInUp from "../../components/animation/FadeInUp";
-import WorkingApproach from "./WorkingApproach";
+import WorkingApproach from "../../components/service/WorkingApproach";
 function PerformanceFunnelPage() {
     return (
         <div className="section aximo-section-padding2 pb-0">
