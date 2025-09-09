@@ -15,7 +15,7 @@ function AdvisoryGrowthPage() {
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    Strategic advisory for 
+                    Strategic advisory for
                     <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span>
@@ -23,7 +23,9 @@ function AdvisoryGrowthPage() {
                   scaling
                 </h2>
                 <p>
-                   Scaling a business requires more than marketing. Rads Media provides advisory services to guide strategy, innovation, and sustainable growth.{" "}
+                  Scaling a business requires more than marketing. Rads Media
+                  provides advisory services to guide strategy, innovation, and
+                  sustainable growth.{" "}
                 </p>
               </div>
             </div>
@@ -33,15 +35,9 @@ function AdvisoryGrowthPage() {
               <div className="aximo-user-interface">
                 <h3>1/ Business Audit:</h3>
                 <ul>
-                  <li>
-                   Analyze strengths, weaknesses, and gaps.
-                  </li>
-                  <li>
-                   Study market trends and competitors.
-                  </li>
-                  <li>
-                   Identify growth opportunities.
-                  </li>
+                  <li>Analyze strengths, weaknesses, and gaps.</li>
+                  <li>Study market trends and competitors.</li>
+                  <li>Identify growth opportunities.</li>
                 </ul>
               </div>
             </div>
@@ -49,15 +45,9 @@ function AdvisoryGrowthPage() {
               <div className="aximo-user-interface">
                 <h3>2/ Growth Roadmap:</h3>
                 <ul>
-                  <li>
-                   Create short-term and long-term plans.
-                  </li>
-                  <li>
-                    Innovate products, services, and models.
-                  </li>
-                  <li>
-                   Provide strategic execution support.
-                  </li>
+                  <li>Create short-term and long-term plans.</li>
+                  <li>Innovate products, services, and models.</li>
+                  <li>Provide strategic execution support.</li>
                 </ul>
               </div>
             </div>
