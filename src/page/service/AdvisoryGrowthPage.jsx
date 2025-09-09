@@ -15,22 +15,15 @@ function AdvisoryGrowthPage() {
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    UI/UX for modern
+                    Strategic advisory for 
                     <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span>
                   </span>
-                  product development
+                  scaling
                 </h2>
                 <p>
-                  UI/UX, which stands for User Interface (UI) and User
-                  Experience (UX), are two critical components of software
-                  design and development of websites and applications.{" "}
-                </p>
-                <p>
-                  They are often used interchangeably, but they refer to
-                  different aspects of the design and user interaction process.
-                  Here's a brief overview of each:
+                   Scaling a business requires more than marketing. Rads Media provides advisory services to guide strategy, innovation, and sustainable growth.{" "}
                 </p>
               </div>
             </div>
@@ -38,45 +31,32 @@ function AdvisoryGrowthPage() {
           <div className="row">
             <div className="col-lg-6">
               <div className="aximo-user-interface">
-                <h3>1/ User Interface (UI):</h3>
+                <h3>1/ Business Audit:</h3>
                 <ul>
                   <li>
-                    UI refers to the visual elements and the overall look and
-                    feel of a product. It encompasses the design of screens,
-                    pages, buttons, icons, and any other visual elements users
-                    interact with.
+                   Analyze strengths, weaknesses, and gaps.
                   </li>
                   <li>
-                    UI designers are responsible for creating a visually
-                    appealing and consistent design that aligns with the brand
-                    or product's identity.
+                   Study market trends and competitors.
                   </li>
                   <li>
-                    Key aspects of UI design include layout, color schemes,
-                    typography, icons, and graphical elements.
+                   Identify growth opportunities.
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="aximo-user-interface">
-                <h3>2/ User Experience (UX):</h3>
+                <h3>2/ Growth Roadmap:</h3>
                 <ul>
                   <li>
-                    UX focuses on the overall experience of the user when
-                    interacting with a product. It encompasses how users feel
-                    when they use the product and how easy or challenging it is
-                    to accomplish their goals.
+                   Create short-term and long-term plans.
                   </li>
                   <li>
-                    UX designers work to understand the user's needs, behaviors,
-                    and pain points, and they design the product maximizes user
-                    satisfaction.
+                    Innovate products, services, and models.
                   </li>
                   <li>
-                    Key aspects of UX design include research, information
-                    architecture, wireframing, prototyping, usability testing,
-                    and user journey mapping.
+                   Provide strategic execution support.
                   </li>
                 </ul>
               </div>

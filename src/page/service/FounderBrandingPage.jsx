@@ -16,20 +16,15 @@ function FounderBrandingPage() {
                             <div className="aximo-default-content">
                                 <h2>
                                     <span className="aximo-title-animation">
-                                        UI/UX for modern
+                                        Building personal brands
                                         <span className="aximo-title-icon">
                                             <img src={Star2Img} alt="star" />
                                         </span>
                                     </span>
-                                    product development
+                                     that lead
                                 </h2>
                                 <p>
-                                    UI/UX, which stands for User Interface (UI) and User Experience (UX), are two
-                                    critical components of software design and development of websites and applications.{" "}
-                                </p>
-                                <p>
-                                    They are often used interchangeably, but they refer to different aspects of the
-                                    design and user interaction process. Here's a brief overview of each:
+                                    Founders are the face of modern businesses. We help leaders grow personal brands that inspire trust, attract opportunities, and build authority.{" "}
                                 </p>
                             </div>
                         </div>
@@ -37,40 +32,32 @@ function FounderBrandingPage() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="aximo-user-interface">
-                                <h3>1/ User Interface (UI):</h3>
+                                <h3>1/ Personal Identity: </h3>
                                 <ul>
                                     <li>
-                                        UI refers to the visual elements and the overall look and feel of a product. It
-                                        encompasses the design of screens, pages, buttons, icons, and any other visual
-                                        elements users interact with.
+                                       Craft messaging and tone.
                                     </li>
                                     <li>
-                                        UI designers are responsible for creating a visually appealing and consistent
-                                        design that aligns with the brand or product's identity.
+                                        Define areas of expertise and positioning.
                                     </li>
                                     <li>
-                                        Key aspects of UI design include layout, color schemes, typography, icons, and
-                                        graphical elements.
+                                        Align founder image with company values.
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="aximo-user-interface">
-                                <h3>2/ User Experience (UX):</h3>
+                                <h3>2/ Visibility Growth:</h3>
                                 <ul>
                                     <li>
-                                        UX focuses on the overall experience of the user when interacting with a
-                                        product. It encompasses how users feel when they use the product and how easy or
-                                        challenging it is to accomplish their goals.
+                                        Social media presence and content.
                                     </li>
                                     <li>
-                                        UX designers work to understand the user's needs, behaviors, and pain points,
-                                        and they design the product maximizes user satisfaction.
+                                        PR features and interviews.
                                     </li>
                                     <li>
-                                        Key aspects of UX design include research, information architecture,
-                                        wireframing, prototyping, usability testing, and user journey mapping.
+                                        Thought leadership campaigns.
                                     </li>
                                 </ul>
                             </div>

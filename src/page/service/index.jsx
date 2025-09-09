@@ -9,7 +9,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Brand & Identity",
     description:
-      " Designing seamless user interfaces and experiences that make digital products and apps more accessible and engaging.",
+      " Crafting distinctive brand identities that build trust, recognition, and lasting impressions.",
     icon: "icon-design-tools",
     navigatePage: "brand-identity",
   },
@@ -17,7 +17,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Ad Films & Commercials",
     description:
-      "Building visual elements like logos, marketing materials, page layouts, brochures, and branded collateral.",
+      "Producing impactful ad films and commercials that inspire, engage, and drive conversions.",
     icon: "icon-branding",
     navigatePage: "ad-films-commercials",
   },
@@ -25,7 +25,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Content Engine",
     description:
-      "Creating websites that are visually appealing, user-friendly, and fully optimized for functionality and flow.",
+      "Creating powerful, scalable content strategies that fuel growth and deliver consistent results",
     icon: "icon-web",
     navigatePage: "content-engine",
   },
@@ -33,7 +33,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Social Media Growth",
     description:
-      "Designing animated visuals and videos for marketing, promotion, and entertainment to engage your audience.",
+      "Building engaging social media strategies that boost visibility, followers, and community trust.",
     icon: "icon-design-thinking",
     navigatePage: "social-media-growth",
   },
@@ -41,7 +41,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Performance Funnel",
     description:
-      " Crafting product packaging that protects, attracts, and creates a strong presence on retail shelves.",
+      " Designing conversion-driven funnels to capture leads, nurture prospects, and maximize ROI.",
     icon: "icon-layers",
     navigatePage: "performance-funnel",
   },
@@ -49,7 +49,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Web & App Build",
     description:
-      " Developing or refreshing logos and building consistent visual identities, business cards, and brand kits.",
+      " Developing seamless websites and apps that combine design, functionality, and user experience.",
     icon: "icon-rating-stars-1",
     navigatePage: "web-app-build",
   },
@@ -57,7 +57,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Founder Branding",
     description:
-      " Producing original illustrations for books, websites, marketing campaigns, editorials, and more.",
+      " Positioning founders as thought leaders through personal branding, storytelling, and influence.",
     icon: "icon-chef",
     navigatePage: "founder-branding",
   },
@@ -65,7 +65,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Advisory & Growth",
     description:
-      "Shaping the appearance and usability of physical products with a focus on design, function, and ergonomics.",
+      "Providing expert guidance to scale businesses with data-driven strategies and proven frameworks.",
     icon: "icon-target-1",
     navigatePage: "advisory-growth",
   },
@@ -73,7 +73,7 @@ const services = [
     id: crypto.randomUUID(),
     title: "Automation & Martech",
     description:
-      "Shaping the appearance and usability of physical products with a focus on design, function, and ergonomics.",
+      "Implementing automation and marketing technology solutions that optimize efficiency and growth.",
     icon: "icon-target-1",
     navigatePage: "automation-and-martech",
   },

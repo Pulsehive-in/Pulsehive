@@ -15,61 +15,49 @@ function BrandIdentityPage() {
                             <div className="aximo-default-content">
                                 <h2>
                                     <span className="aximo-title-animation">
-                                        UI/UX for modern
+                                       Crafting brands that
                                         <span className="aximo-title-icon">
                                             <img src={Star2Img} alt="star" />
                                         </span>
                                     </span>
-                                    product development
+                                     leave a mark
                                 </h2>
                                 <p>
-                                    UI/UX, which stands for User Interface (UI) and User Experience (UX), are two
-                                    critical components of software design and development of websites and applications.{" "}
+                                     Brand identity defines how your audience perceives your business. At Rads Media, we craft powerful identities that combine visuals, messaging, and strategy to build recognition and trust.{" "}
                                 </p>
-                                <p>
-                                    They are often used interchangeably, but they refer to different aspects of the
-                                    design and user interaction process. Here's a brief overview of each:
-                                </p>
+                            
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="aximo-user-interface">
-                                <h3>1/ User Interface (UI):</h3>
+                                <h3>1/ Visual Identity: </h3>
                                 <ul>
                                     <li>
-                                        UI refers to the visual elements and the overall look and feel of a product. It
-                                        encompasses the design of screens, pages, buttons, icons, and any other visual
-                                        elements users interact with.
+                                        Covers logos, colors, typography, and design elements.
                                     </li>
                                     <li>
-                                        UI designers are responsible for creating a visually appealing and consistent
-                                        design that aligns with the brand or product's identity.
+                                        Ensures your brand looks consistent across all platforms.
                                     </li>
                                     <li>
-                                        Key aspects of UI design include layout, color schemes, typography, icons, and
-                                        graphical elements.
+                                        Creates a visual style that resonates with your audience.
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="aximo-user-interface">
-                                <h3>2/ User Experience (UX):</h3>
+                                <h3>2/ Brand Voice & Guidelines: </h3>
                                 <ul>
                                     <li>
-                                        UX focuses on the overall experience of the user when interacting with a
-                                        product. It encompasses how users feel when they use the product and how easy or
-                                        challenging it is to accomplish their goals.
+                                        Defines tone, messaging, and communication style.
                                     </li>
                                     <li>
-                                        UX designers work to understand the user's needs, behaviors, and pain points,
-                                        and they design the product maximizes user satisfaction.
+                                        Aligns your brand personality across campaigns.
                                     </li>
                                     <li>
-                                        Key aspects of UX design include research, information architecture,
-                                        wireframing, prototyping, usability testing, and user journey mapping.
+                                        Provides a guidebook for cohesive branding everywhere.
                                     </li>
                                 </ul>
                             </div>
