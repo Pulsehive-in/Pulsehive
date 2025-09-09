@@ -23,8 +23,8 @@ function Header() {
               <NavItem url="about-us">About Us</NavItem>
               <NavItem url="service">Services</NavItem>
               <NavItem url="portfolio-two">Portfolio</NavItem>
-              {/* <NavItem dropdown title="Pages">
-                <Dropdown>
+              {/* <NavItem dropdown title="Pages"> */}
+                {/* <Dropdown>
                   <DropdownItem url="about-us">About Us</DropdownItem>
                   <DropdownItem url="pricing">Pricing</DropdownItem>
                   <DropdownItem dropdown title="Blog">
@@ -82,16 +82,16 @@ function Header() {
                       </DropdownItem>
                     </Dropdown>
                   </DropdownItem>
-                </Dropdown>
-              </NavItem> */}
+                </Dropdown> */}
+              {/* </NavItem> */}
               {/* <NavItem dropdown title="Blog">
                 <Dropdown>
                   <DropdownItem url="blog">Our Blog</DropdownItem>
                   <DropdownItem url="blog-grid">Blog Grid</DropdownItem>
                   <DropdownItem url="single-blog">Blog Details</DropdownItem>
                 </Dropdown>
-              </NavItem> */}
-              {/* <NavItem url="contact-us">Contact Us</NavItem> */}
+              </NavItem>
+              <NavItem url="contact-us">Contact Us</NavItem> */}
             </DesktopNav>
           </div>
           <HeaderButton />
