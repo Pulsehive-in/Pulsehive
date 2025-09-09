@@ -1,7 +1,6 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Testimonial from "../../components/home-one/testimonial";
-// import BrandIdentityPage from "../components/service/BrandIdentityPage.jsx";
-import BrandIdentityPage from "./"
+import BrandIdentityPage from "./BrandIdentityPage.jsx";
 function UiUxDesign() {
   return (
     <>
@@ -13,5 +12,3 @@ function UiUxDesign() {
 }
 
 export default UiUxDesign;
-
-

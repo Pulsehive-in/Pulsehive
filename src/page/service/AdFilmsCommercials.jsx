@@ -1,14 +1,14 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Testimonial from "../../components/home-one/testimonial";
-import ServiceDetails from "../../components/service/ServiceDetails";
-function Illustration() {
+import AdFilmsCommercialsPage from "../service/AdsFilmsCommercialsPage";
+function WebDesign() {
   return (
     <>
       <BreadCrumb title="Service Details" />
-      <ServiceDetails />
+      <AdFilmsCommercialsPage />
       <Testimonial />
     </>
   );
 }
 
-export default Illustration;
+export default WebDesign;

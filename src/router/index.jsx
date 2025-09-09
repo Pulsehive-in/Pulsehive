@@ -29,14 +29,14 @@ import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
 import SinglePortfolio from "../page/portfolio/SinglePortfolio";
 import Service from "../page/service";
-import UiUxDesign from "../page/service/UiUxDesign.jsx";
-import GraphicDesign from "../page/service/GraphicDesign.jsx";
-import WebDesign from "../page/service/WebDesign.jsx";
-import MotionGraphics from "../page/service/MotionGraphics.jsx";
-import PackagingDesign from "../page/service/PackagingDesign.jsx";
-import LogoAndBranding from "../page/service/LogoAndBranding.jsx";
-import Illustration from "../page/service/Illustration.jsx";
-import ProductDesign from "../page/service/ProductDesign.jsx";
+import BrandIdentity from "../page/service/BrandIdentity.jsx";
+import GraphicDesign from "../page/service/AdvisoryGrowth.jsx";
+import WebDesign from "../page/service/AdFilmsCommercials.jsx";
+import MotionGraphics from "../page/service/PerformanceFunnel.jsx";
+import PackagingDesign from "../page/service/SocialMediaGrowth.jsx";
+import LogoAndBranding from "../page/service/WebAppBuild.jsx";
+import Illustration from "../page/service/FounderBranding.jsx";
+import ProductDesign from "../page/service/ContentEngine.jsx";
 import AutomationAndMartech from "../page/service/AutomationAndMartech.jsx";
 import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
@@ -97,7 +97,7 @@ export const router = createBrowserRouter([
           },
           {
             path: "/ui-ux-design",
-            element: <UiUxDesign />,
+            element: <BrandIdentity />,
           },
           {
             path: "/graphic-design",

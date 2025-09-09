@@ -1,14 +1,14 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Testimonial from "../../components/home-one/testimonial";
-import ServiceDetails from "../../components/service/ServiceDetails";
-function LogoAndBranding() {
+import PerformanceFunnelPage from "../service/PerformanceFunnelPage.jsx";
+function MotionGraphics() {
   return (
     <>
       <BreadCrumb title="Service Details" />
-      <ServiceDetails />
+      <PerformanceFunnelPage />
       <Testimonial />
     </>
   );
 }
 
-export default LogoAndBranding;
+export default MotionGraphics;
