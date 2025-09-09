@@ -14,76 +14,90 @@ import Team3Img from "../../assets/images/team/team3.png";
 import Team4Img from "../../assets/images/team/team4.png";
 
 const servicesData = [
-	{
-		id: crypto.randomUUID(),
-		title: "UI/UX Design",
-		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Motion Graphics",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
-	},
+  {
+    id: crypto.randomUUID(),
+    title: "Marketing Services",
+    description:
+      "From digital ads to brand strategy, we design marketing campaigns that build awareness, engage customers, and drive measurable results.",
+    icon: "icon-design-tools",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Web Development",
+    description:
+      "Custom websites that are fast, responsive, and designed to convert. We blend design with functionality to create online experiences that stand out.",
+    icon: "icon-branding",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Graphic Design",
+    description:
+      "From logos and branding to social media creatives and brochures, we craft visuals that speak louder than words.",
+    icon: "icon-web",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Video Editing",
+    description:
+      "High-quality, story-driven edits for ads, reels, campaigns, and brand films—tailored to capture attention and boost engagement.",
+    icon: "icon-design-thinking",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Influencer Marketing",
+    description:
+      "Connecting brands with the right voices. We plan and execute influencer collaborations that drive authenticity and impact.",
+    icon: "icon-design-thinking",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: " Shoot Planning",
+    description:
+      "From concept to camera, we handle the end-to-end planning of photo and video shoots—ensuring smooth execution and stunning results.",
+    icon: "icon-design-thinking",
+  },
 ];
 
 const teamsData = [
-	{
-		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
-		img: Team1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
-	},
+  {
+    id: crypto.randomUUID(),
+    name: "Andrew Mark",
+    designation: "Creative Director",
+    img: Team1Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Jack Taylor",
+    designation: "Senior Designer",
+    img: Team2Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Martine Joy",
+    designation: "Project Manager",
+    img: Team3Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Adam Straw",
+    designation: "Web Developer",
+    img: Team4Img,
+  },
 ];
 
 function HomeOne() {
-	return (
-		<>
-			<Hero />
-			<Services services={servicesData} />
-			<About />
-			<Projects />
-			<WhyChooseUs />
-			<Testimonial />
-			<AutoSlider />
-			<Teams teams={teamsData} />
-		</>
-	);
+  return (
+    <>
+      <Hero />
+      <Services services={servicesData} />
+      <About />
+      <Projects />
+      <WhyChooseUs />
+      <Testimonial />
+      <AutoSlider />
+      <Teams teams={teamsData} />
+    </>
+  );
 }
 
 export default HomeOne;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo/logo-white.svg";
+import Logo from "../../assets/images/logo/logo-white.png";
 function Footer() {
 	return (
 		<footer className="aximo-footer-section dark-bg">
@@ -15,7 +15,7 @@ function Footer() {
 						</div>
 						<div className="col-lg-6">
 							<div className="aximo-copywright one">
-								<p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
+								<p> &copy; Copyright 2025, Designed and Developed by RADS Media</p>
 							</div>
 						</div>
 					</div>
