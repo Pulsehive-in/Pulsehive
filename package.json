@@ -8,10 +8,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-	"vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
-  "@ramonak/react-progress-bar": "^5.4.0",
+    "@ramonak/react-progress-bar": "^5.4.0",
     "bootstrap": "^5.3.8",
     "framer-motion": "^12.23.12",
     "google-map-react": "^2.2.5",
