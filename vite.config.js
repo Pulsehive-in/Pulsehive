@@ -7,8 +7,10 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // Ensures Vite resolves react-router from node_modules
       'react-router': path.resolve(__dirname, 'node_modules/react-router')
     }
+  },
+  optimizeDeps: {
+    include: ['react-router', 'react-router-dom']
   }
 });
