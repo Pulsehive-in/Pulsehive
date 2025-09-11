@@ -9,9 +9,9 @@ function ServiceCard({ service: { title, description, icon ,navigatePage} }) {
 			<div className="aximo-iconbox-data">
 				<h3>{title}</h3>
 				<p>{description}</p>
-				{/* <Link to={`/${navigatePage}`} className="aximo-icon">
+				<Link to={`/${navigatePage}`} className="aximo-icon">
 					<img src={ArrowRightImg} alt="arrow right" />
-				</Link> */}
+				</Link>
 			</div>
 		</div>
 	);
