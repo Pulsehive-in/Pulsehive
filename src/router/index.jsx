@@ -1,14 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
-import LayoutEight from "../components/layout/LayoutEight.jsx";
 import LayoutOne from "../components/layout/LayoutOne.jsx";
 import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import Pricing from "../page/Pricing";
-import Reset from "../page/auth/ResetPassword.jsx";
-import SignIn from "../page/auth/SignIn";
-import SignUp from "../page/auth/SignUp";
 import HomeOne from "../page/home/HomeOne.jsx";
 import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
@@ -25,7 +21,6 @@ import AdvisoryGrowth from "../page/service/AdvisoryGrowth.jsx";
 import AutomationAndMartech from "../page/service/AutomationAndMartech.jsx";
 import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
-import CommingSoon from "../page/utility/CommingSoon.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
 
@@ -131,28 +126,7 @@ export const router = createBrowserRouter([
           },
         ],
       },
-      {
-        path: "/",
-        element: <LayoutEight />,
-        children: [
-          {
-            path: "/coming-soon",
-            element: <CommingSoon />,
-          },
-          {
-            path: "/reset-password",
-            element: <Reset />,
-          },
-          {
-            path: "/sign-up",
-            element: <SignUp />,
-          },
-          {
-            path: "/sign-in",
-            element: <SignIn />,
-          },
-        ],
-      },
+      
     ],
   },
 ]);
