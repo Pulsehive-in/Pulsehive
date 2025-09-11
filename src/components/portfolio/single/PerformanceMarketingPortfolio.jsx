@@ -23,68 +23,8 @@ const projectResolveSteps = [
 ];
 function PerformanceMarketingPortfolio() {
   return (
-    <div className="aximo-project-single-section">
+    <div>
       <ExpandableCardDemo />
-      <div className="container">
-        <FadeInUp className="aximo-project-single-thumb">
-          <img src={Single1Img} alt="Single" />
-        </FadeInUp>
-        <div className="aximo-project-info-wrap">
-          <div className="aximo-project-info">
-            <h3>Client:</h3>
-            <p>Alfado Company,UK</p>
-          </div>
-          <div className="aximo-project-info">
-            <h3>Date:</h3>
-            <p>June</p>
-          </div>
-          <div className="aximo-project-info">
-            <h3>Duration:</h3>
-            <p>Two Months</p>
-          </div>
-          <div className="aximo-project-info">
-            <h3>Cost:</h3>
-            <p>50k USD</p>
-          </div>
-        </div>
-        <div className="aximo-project-single-wrap">
-          <div className="row">
-            <div className="col-lg-4 order-lg-2">
-              <FadeInRight className="aximo-project-single-thumb2 ">
-                <img src={Single2Img} alt="Single 2" />
-              </FadeInRight>
-            </div>
-            <div className="col-lg-8">
-              <div className="aximo-default-content m-right-gap">
-                <h2>
-                  How we initiate and
-                  <span className="aximo-title-animation">
-                    resolve the project
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
-                  </span>
-                </h2>
-                <p>
-                  The project began when a leading technology identified a
-                  market need for an innovative and energy-efficient smart home
-                  thermostat.
-                </p>
-                <div className="aximo-resolve-project-wrap">
-                  {projectResolveSteps.map((item, index) => (
-                    <div key={item.id} className="aximo-resolve-project-item">
-                      <h3>
-                        {index + 1}. {item.title}:
-                      </h3>
-                      <p>{item.text}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
