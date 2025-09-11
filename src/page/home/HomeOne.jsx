@@ -20,6 +20,7 @@ const servicesData = [
     description:
       "From digital ads to brand strategy, we design marketing campaigns that build awareness, engage customers, and drive measurable results.",
     icon: "icon-design-tools",
+    navigatePage: "ad-films-commercials",
   },
   {
     id: crypto.randomUUID(),
@@ -27,6 +28,7 @@ const servicesData = [
     description:
       "Custom websites that are fast, responsive, and designed to convert. We blend design with functionality to create online experiences that stand out.",
     icon: "icon-branding",
+    navigatePage: "web-app-build",
   },
   {
     id: crypto.randomUUID(),
@@ -34,6 +36,7 @@ const servicesData = [
     description:
       "From logos and branding to social media creatives and brochures, we craft visuals that speak louder than words.",
     icon: "icon-web",
+    navigatePage: "ad-films-commercials",
   },
   {
     id: crypto.randomUUID(),
@@ -41,6 +44,7 @@ const servicesData = [
     description:
       "High-quality, story-driven edits for ads, reels, campaigns, and brand films—tailored to capture attention and boost engagement.",
     icon: "icon-design-thinking",
+    navigatePage: "social-media-growth",
   },
   {
     id: crypto.randomUUID(),
@@ -48,6 +52,7 @@ const servicesData = [
     description:
       "Connecting brands with the right voices. We plan and execute influencer collaborations that drive authenticity and impact.",
     icon: "icon-design-thinking",
+    navigatePage: "brand-identity",
   },
   {
     id: crypto.randomUUID(),
@@ -55,6 +60,7 @@ const servicesData = [
     description:
       "From concept to camera, we handle the end-to-end planning of photo and video shoots—ensuring smooth execution and stunning results.",
     icon: "icon-design-thinking",
+    navigatePage: "",
   },
 ];
 
