@@ -1,4 +1,5 @@
 /*Header Css StaRT*/
+@import "tailwindcss";
 .site-navbar {
 	display: flex;
 	position: relative;
