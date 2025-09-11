@@ -10,73 +10,67 @@ import FadeInStagger from "../../animation/FadeInStagger";
 import PortfolioCard from "./PortfolioCard";
 
 const portfolioListData = [
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
-		img: Portfolio1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a companys logo and developing a cohesive visual identity.",
-		img: Portfolio2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
-		img: Portfolio3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
-		img: Portfolio4Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Environmental Design",
-		description:
-			"Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
-		img: Portfolio5Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Environmental Design",
-		description:
-			"Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
-		img: Portfolio6Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Advertising Campaigns",
-		description:
-			"Developing creative concepts for print, digital, and video advertising campaigns, including ad design and copywriting",
-		img: Portfolio7Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Website Development",
-		description:
-			"Designing and building user-friendly websites that are visually appealing and responsive to different devices.",
-		img: Portfolio8Img,
-	},
+  {
+    id: crypto.randomUUID(),
+    title: "Performance Marketing",
+    description:
+      "Developing the look and feel of physical products, aesthetics, and functionality.",
+    img: Portfolio1Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Social Media Growth",
+    description:
+      "Creating or refreshing a companys logo and developing a cohesive visual identity.",
+    img: Portfolio2Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Graphics",
+    description:
+      "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+    img: Portfolio3Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Video Editing",
+    description:
+      "Creating packaging solutions for products that not only protect attract customers on store.",
+    img: Portfolio4Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Web & App Development",
+    description:
+      "Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
+    img: Portfolio5Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Ads & Films Shooting",
+    description:
+      "Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
+    img: Portfolio6Img,
+  },
 ];
 function PortfolioList() {
-	return (
-		<div className="section aximo-project-page aximo-section-padding5">
-			<div className="container">
-				<div className="row">
-					{portfolioListData.map((portfolio, index) => (
-						<FadeInStagger className="col-lg-6" key={portfolio.id} index={index}>
-							<PortfolioCard portfolio={portfolio} />
-						</FadeInStagger>
-					))}
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="section aximo-project-page aximo-section-padding5">
+      <div className="container">
+        <div className="row">
+          {portfolioListData.map((portfolio, index) => (
+            <FadeInStagger
+              className="col-lg-6"
+              key={portfolio.id}
+              index={index}
+            >
+              <PortfolioCard portfolio={portfolio} />
+            </FadeInStagger>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default PortfolioList;
