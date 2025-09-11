@@ -20,7 +20,7 @@ const projectResolveSteps = [
 		text: "The smart home thermostat quickly gained popularity and was well-received in the market. The project was a success, benefiting both the company and the environment.",
 	},
 ];
-function PortfolioDetails() {
+function AdsFilmsPortfolio() {
 	return (
 		<div className="aximo-project-single-section">
 			<div className="container">
@@ -86,4 +86,4 @@ function PortfolioDetails() {
 	);
 }
 
-export default PortfolioDetails;
+export default AdsFilmsPortfolio;

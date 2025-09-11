@@ -16,6 +16,7 @@ const portfolioListData = [
     description:
       "Developing the look and feel of physical products, aesthetics, and functionality.",
     img: Portfolio1Img,
+    navigate: "/performance-marketing-details",
   },
   {
     id: crypto.randomUUID(),
@@ -23,6 +24,7 @@ const portfolioListData = [
     description:
       "Creating or refreshing a companys logo and developing a cohesive visual identity.",
     img: Portfolio2Img,
+    navigate: "/social-media-growth-details",
   },
   {
     id: crypto.randomUUID(),
@@ -30,6 +32,7 @@ const portfolioListData = [
     description:
       "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
     img: Portfolio3Img,
+    navigate: "/graphics-details",
   },
   {
     id: crypto.randomUUID(),
@@ -37,6 +40,7 @@ const portfolioListData = [
     description:
       "Creating packaging solutions for products that not only protect attract customers on store.",
     img: Portfolio4Img,
+    navigate: "/video-editing-details",
   },
   {
     id: crypto.randomUUID(),
@@ -44,6 +48,7 @@ const portfolioListData = [
     description:
       "Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
     img: Portfolio5Img,
+    navigate: "/web-app-dev-details",
   },
   {
     id: crypto.randomUUID(),
@@ -51,6 +56,7 @@ const portfolioListData = [
     description:
       "Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
     img: Portfolio6Img,
+    navigate: "/ads-films-shooting-details",
   },
 ];
 function PortfolioList() {

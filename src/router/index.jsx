@@ -7,7 +7,6 @@ import ContactUs from "../page/ContactUs";
 import Pricing from "../page/Pricing";
 import HomeOne from "../page/home/HomeOne.jsx";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
-import SinglePortfolio from "../page/portfolio/SinglePortfolio";
 import Service from "../page/service";
 import BrandIdentity from "../page/service/BrandIdentity.jsx";
 import AdFilmsCommercials from "../page/service/AdFilmsCommercials.jsx";
@@ -22,6 +21,12 @@ import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
+import PerformanceMarketingDetails from "../page/portfolio/PerformanceMarketingDetails.jsx";
+import SocialMediaGrowthDetails from "../page/portfolio/SocialMediaGrowthDetails.jsx";
+import GraphicsDetails from "../page/portfolio/GraphicsDetails.jsx";
+import VideoEditingDetails from "../page/portfolio/VideoEditingDetails.jsx";
+import WebAppDevDetails from "../page/portfolio/WebAppDevDetails.jsx";
+import AdFilmsDetails from "../page/portfolio/AdFilmsDetails.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -112,16 +117,36 @@ export const router = createBrowserRouter([
             element: <PortfolioTwoColumn />,
           },
           {
-            path: "/single-portfolio",
-            element: <SinglePortfolio />,
+            path: "/performance-marketing-details",
+            element: <PerformanceMarketingDetails />,
           },
+          {
+            path: "/social-media-growth-details",
+            element: <SocialMediaGrowthDetails />,
+          },
+          {
+            path: "/video-editing-details",
+            element: <VideoEditingDetails />,
+          },
+          {
+            path: "/web-app-dev-details",
+            element: <WebAppDevDetails />,
+          },
+          {
+            path: "Ads & Films Shooting",
+            element: <AdFilmsDetails />,
+          },
+          {
+            path: "/graphics-details",
+            element: <GraphicsDetails />,
+          },
+
           {
             path: "*",
             element: <ErrorPage />,
           },
         ],
       },
-      
     ],
   },
 ]);
