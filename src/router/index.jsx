@@ -6,7 +6,6 @@ import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import Pricing from "../page/Pricing";
 import HomeOne from "../page/home/HomeOne.jsx";
-import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
 import SinglePortfolio from "../page/portfolio/SinglePortfolio";
 import Service from "../page/service";
@@ -107,10 +106,6 @@ export const router = createBrowserRouter([
           {
             path: "/single-team",
             element: <SingleTeam />,
-          },
-          {
-            path: "/portfolio-one",
-            element: <PortfolioOneColumn />,
           },
           {
             path: "/portfolio-two",
