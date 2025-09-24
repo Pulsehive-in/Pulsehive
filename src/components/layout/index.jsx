@@ -4,7 +4,7 @@ import Preloader from "../common/Preloader";
 import ScrollToTop from "../common/ScrollToTop";
 function Layout() {
 	useScrollTop();
-	return (
+	return ( 
 		<>
 			<Preloader />
 			<Outlet />
