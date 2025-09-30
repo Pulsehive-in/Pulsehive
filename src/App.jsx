@@ -1,15 +1,11 @@
-
+import { Outlet } from "react-router-dom";
 
 function App() {
-
-
   return (
     <>
-      <div className="text-3xl">
-       
-      </div>
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
