@@ -54,6 +54,9 @@ export default function Home() {
       </WavyBackground>
 
       {/* second */}
+      <h1 className="text-white text-5xl mb-15">
+        We provide effective design solutions
+      </h1>
       <HoverEffect items={projects} />
     </div>
   );

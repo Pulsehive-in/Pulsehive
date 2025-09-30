@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="w-[100vw]  overflow-hidden bg-black">
+      <div className="w-[100vw] overflow-hidden bg-black">
          <Navbar>
         {/* Desktop Navbar */}
         <NavBody>
