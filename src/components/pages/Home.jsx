@@ -3,6 +3,7 @@ import { WavyBackground } from "../ui/wavy-background";
 import { HoverEffect } from "../ui/card-hover-effect";
 import { StickyScroll } from "../ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
+import Who from "../ui/Who-we-are";
 const projects = [
   {
     title: "Stripe",
@@ -127,7 +128,8 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       {/* Hero Section */}
-      <WavyBackground className="max-w-4xl mx-auto pb-40">
+      <div>
+        <WavyBackground className="max-w-4xl mx-auto pb-40">
         <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
           Hero waves are cool
         </p>
@@ -135,14 +137,33 @@ export default function Home() {
           Leverage the power of canvas to create a beautiful hero section
         </p>
       </WavyBackground>
+      </div>
+
+      {/* who we are */}
+      <div className="w-[1200px] h-[100vh]">
+        <Who/>
+      </div>
 
       {/* second */}
-      <h1 className="text-white text-5xl mb-15">
+      <div className="h-[100vh] w-[1200px] mb-[100px] text-center ">
+        <h1 className="text-white text-5xl mb-15">
         We provide effective design solutions
       </h1>
       <HoverEffect items={projects} />
+      </div>
+
+
       {/* third  */}
-      <StickyScroll content={content} />
+      <div className="h-[90vh] d-flex justify-items-center align-middle w-[100vw]">
+        <h1 className="text-white text-5xl mb-15">
+        We provide effective design solutions
+      </h1>
+        <StickyScroll content={content} />
+      </div>
+      
+
+
+
       {/* testimonials */}
       <InfiniteMovingCards
         items={testimonials}

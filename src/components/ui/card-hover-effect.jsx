@@ -10,7 +10,7 @@ export const HoverEffect = ({
   let [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="w-[1200px]">
+    <div>
         <div
           className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10", className)}>
           {items.map((item, idx) => (
@@ -23,7 +23,7 @@ export const HoverEffect = ({
               <AnimatePresence>
                 {hoveredIndex === idx && (
                   <motion.span
-                    className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                    className="absolute inset-0 h-full w-full bg-zinc-600 dark:bg-slate-800/[0.8] block  rounded-3xl"
                     layoutId="hoverBackground"
                     initial={{ opacity: 0 }}
                     animate={{
