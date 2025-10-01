@@ -34,7 +34,7 @@ export const Navbar = ({
     <motion.div
       ref={ref}
       // Navbar is fixed at the very top with highest z-index
-      className={cn("fixed inset-x-0 top-0 z-[999] w-full", className)}>
+      className={cn("fixed inset-x-0 top-10 z-[999] w-full", className)}>
       {React.Children.map(children, (child) =>
         React.isValidElement(child)
           ? React.cloneElement(child, { visible })
