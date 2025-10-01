@@ -253,7 +253,7 @@ export default function Home() {
         <StickyScroll content={content} />
       </div>
       {/* Portfolio */}
-      <div className="h-[70vh] w-[1200px]">
+      <div className="h-[70vh] w-[1200px] my-30">
         <h1 className="text-gray-500 text-xl ml-10">Selected Work</h1>
         <p className="text-white text-6xl ml-10">Projects we're proud of</p>
         <LayoutGrid cards={cards} />
