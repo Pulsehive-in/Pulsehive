@@ -19,7 +19,7 @@ function App() {
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
-    { name: "Contact", link: "/contact" },
+    { name: "Portfolio", link: "/portfolio" },
   ];
 
   return (
@@ -30,8 +30,8 @@ function App() {
         <NavBody>
           <NavbarLogo />
           <NavItems items={items} onItemClick={() => {}} />
-          <NavbarButton href="/login" variant="primary">
-            Login
+          <NavbarButton href="/contact-us" variant="primary">
+            Contact Us
           </NavbarButton>
         </NavBody>
 

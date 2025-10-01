@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import Home from "./components/pages/Home.jsx"
+import Home from "./components/pages/Home.jsx";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -14,6 +14,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="" element={<Home />}></Route>
+      <Route path="/about" element={<Home />}></Route>
+      <Route path="/services" element={<Home />}></Route>
+      <Route path="/portfolio" element={<Home />}></Route>
+      <Route path="/contact-us" element={<Home />}></Route>
     </Route>
   )
 );
