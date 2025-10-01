@@ -2,7 +2,7 @@ import React from "react";
 
 function Who() {
   return (
-    <section className="py-20">
+    <section className=" w-[1200px] py-20">
       <div className="max-w-6xl mx-auto px-6">
         {/* Top section */}
         <div className="flex flex-col md:flex-row gap-10">
