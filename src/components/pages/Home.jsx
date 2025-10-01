@@ -141,7 +141,7 @@ export default function Home() {
       </div>
 
       {/* who we are */}
-      <div className="w-[1200px] h-[100vh]">
+      <div className="w-[1200px] h-[80vh] flex justify-center items-center">
         <Who/>
       </div>
 
