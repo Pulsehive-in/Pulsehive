@@ -124,53 +124,52 @@ const testimonials = [
   },
 ];
 
-
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
       {/* Hero Section */}
       <div>
         <WavyBackground className="max-w-4xl mx-auto pb-40">
-        <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-          Hero waves are cool
-        </p>
-        <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-          Leverage the power of canvas to create a beautiful hero section
-        </p>
-      </WavyBackground>
+          <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
+            Hero waves are cool
+          </p>
+          <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
+            Leverage the power of canvas to create a beautiful hero section
+          </p>
+        </WavyBackground>
       </div>
 
       {/* who we are */}
       <div className="bg-zinc-900 w-full h-[80vh] flex justify-center items-center">
-        <Who/>
+        <Who />
       </div>
 
       {/* second */}
-      <div className="h-[100vh] w-[1200px] mb-[100px] text-center ">
+      <div className="h-[100vh] w-[1200px] mt-20 mb-[100px] text-center ">
         <h1 className="text-white text-5xl mb-15">
-        We provide effective design solutions
-      </h1>
-      <HoverEffect items={projects} />
+          We provide effective design solutions
+        </h1>
+        <HoverEffect items={projects} />
       </div>
-
 
       {/* third  */}
       <div className="h-[90vh] d-flex justify-items-center align-middle w-[100vw]">
         <h1 className="text-white text-5xl mb-15">
-        We provide effective design solutions
-      </h1>
+          We provide effective design solutions
+        </h1>
         <StickyScroll content={content} />
       </div>
-      
-
-
 
       {/* testimonials */}
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
+      <div className="mt-30 flex flex-col gap-10 mb-15">
+        <h1 className="text-white text-xl">Testimonials</h1>
+        <p className="text-white text-6xl w-[50%]">Trusted by forward-thinking brands</p>
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+      </div>
     </div>
   );
 }
