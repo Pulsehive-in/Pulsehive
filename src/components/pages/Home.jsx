@@ -4,6 +4,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 import { StickyScroll } from "../ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import Who from "../ui/Who-we-are";
+import CTAbanner from "../ui/CTAbanner";
 const projects = [
   {
     title: "Stripe",
@@ -163,13 +164,17 @@ export default function Home() {
       {/* testimonials */}
       <div className="mt-30 flex flex-col gap-10 mb-15">
         <h1 className="text-white text-xl">Testimonials</h1>
-        <p className="text-white text-6xl w-[50%]">Trusted by forward-thinking brands</p>
+        <p className="text-white text-6xl w-[50%]">
+          Trusted by forward-thinking brands
+        </p>
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
           speed="slow"
         />
       </div>
+      {/* CTA Banner */}
+      <CTAbanner />
     </div>
   );
 }
