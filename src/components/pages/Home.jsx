@@ -162,7 +162,7 @@ export default function Home() {
       </div>
 
       {/* testimonials */}
-      <div className="mt-30 flex flex-col gap-10 mb-15">
+      <div className="mt-30 h-[80vh] justify-center flex flex-col gap-10 mb-15">
         <h1 className="text-white text-xl">Testimonials</h1>
         <p className="text-white text-6xl w-[50%]">
           Trusted by forward-thinking brands
@@ -174,7 +174,9 @@ export default function Home() {
         />
       </div>
       {/* CTA Banner */}
-      <CTAbanner />
+      <div className="mb-30">
+        <CTAbanner />
+      </div>
     </div>
   );
 }

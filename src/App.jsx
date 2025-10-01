@@ -11,6 +11,7 @@ import {
   NavbarButton,
 } from "./components/ui/resizable-navbar.jsx";
 import { useState } from "react";
+import Footer from "./components/ui/Footer.jsx";
 
 function App() {
 
@@ -62,6 +63,7 @@ function App() {
         </MobileNav>
       </Navbar>
         <Outlet />
+        <Footer/>
       </div>
     </>
   );

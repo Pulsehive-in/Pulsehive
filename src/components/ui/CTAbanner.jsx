@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import React from "react";
 import { AuroraBackground } from "../ui/aurora-background";
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function CTAbanner() {
   return (
@@ -27,9 +28,9 @@ export default function CTAbanner() {
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
-            className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+            className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 cursor-pointer"
           >
-            <span>Aceternity UI</span>
+            <span className="flex justify-center items-center gap-2">Start your Project <ArrowForwardIcon/> </span>
           </HoverBorderGradient>
         </motion.div>
       </AuroraBackground>
