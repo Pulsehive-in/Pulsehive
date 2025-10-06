@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="text-white flex justify-around items-center border-t border-gray-700 h-30">
+    <div className="text-white flex justify-around items-center border-t border-gray-700 h-30 w-full">
       <h1 className="text-3xl">PULSEHIVE</h1>
       <div className="flex gap-10">
         <div>Privacy</div>

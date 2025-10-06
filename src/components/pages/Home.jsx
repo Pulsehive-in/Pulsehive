@@ -4,7 +4,6 @@ import { HoverEffect } from "../ui/card-hover-effect";
 import { StickyScroll } from "../ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import Who from "../ui/Who-we-are";
-import CTAbanner from "../ui/CTAbanner";
 import { LayoutGrid } from "../ui/layout-grid";
 
 const projects = [
@@ -269,10 +268,6 @@ export default function Home() {
           direction="right"
           speed="slow"
         />
-      </div>
-      {/* CTA Banner */}
-      <div className="mb-30">
-        <CTAbanner />
       </div>
     </div>
   );

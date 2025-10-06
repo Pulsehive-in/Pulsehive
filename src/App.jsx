@@ -12,6 +12,7 @@ import {
   NavbarButton,
 } from "./components/ui/resizable-navbar.jsx";
 import { useState } from "react";
+import CTAbanner from "./components/ui/CTAbanner.jsx";
 import Footer from "./components/ui/Footer.jsx";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <div className="w-[100vw] overflow-hidden bg-black">
+      <div className="w-[100vw] overflow-hidden bg-black flex flex-col  items-center">
         <Navbar>
           {/* Desktop Navbar */}
           <NavBody>
@@ -67,6 +68,7 @@ function App() {
           </MobileNav>
         </Navbar>
         <Outlet />
+        <CTAbanner />
         <Footer />
       </div>
     </>
