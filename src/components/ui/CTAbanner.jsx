@@ -29,7 +29,7 @@ export default function CTAbanner() {
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
-              className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 cursor-pointer"
+              className="bg-black text-white flex items-center space-x-2 cursor-pointer"
             >
               <span className="flex justify-center items-center gap-2">
                 Start your Project <ArrowForwardIcon />{" "}
