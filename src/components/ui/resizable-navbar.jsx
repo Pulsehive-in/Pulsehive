@@ -199,7 +199,7 @@ export const NavbarLogo = () => {
         alt="logo"
         width={30}
         height={30} />
-      <span className="font-medium text-black dark:text-white">Pulsehive</span>
+      <span className="font-medium text-white">Pulsehive</span>
     </a>
   );
 };
