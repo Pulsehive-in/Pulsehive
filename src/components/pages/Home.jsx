@@ -244,7 +244,7 @@ export default function Home() {
       <div className="h-[100vh] w-[1200px] mt-50 sm:mt-60 md:mt-10 mb-[100px] text-center flex justify-center items-center ">
         <HoverEffect items={projects} />
       </div>
-
+    
       {/* third  */}
       <div className="h-[90vh] flex flex-col justify-center items-center align-middle w-[100vw]">
         <h1 className="text-white headFont text-5xl mb-15">
