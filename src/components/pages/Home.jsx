@@ -221,14 +221,17 @@ export default function Home() {
     <div className="flex flex-col items-center">
       {/* Hero Section */}
       <div>
-        <WavyBackground className="max-w-4xl mx-auto pb-40">
-          <p className="text-2xl md:text-4xl lg:text-7xl headFont text-white font-bold inter-var text-center">
-            Crafting Digital Experiences That Inspire.
-          </p>
-          <p className="text-base md:text-lg mt-4 text-white paraFont font-normal inter-var text-center">
-            We design, build, and grow brands with creativity, technology, and
-            strategy — turning ideas into impact.
-          </p>
+        <WavyBackground className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
+          <div className="text-center">
+            <p className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-white headFont leading-tight">
+              We Give Your Brand a Creative Pulse.
+            </p>
+
+            <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl text-white font-normal paraFont max-w-3xl mx-auto leading-relaxed">
+              We design, build, and grow brands with creativity, technology, and
+              strategy — turning ideas into impact.
+            </p>
+          </div>
         </WavyBackground>
       </div>
 
