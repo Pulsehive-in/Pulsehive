@@ -222,12 +222,12 @@ export default function Home() {
       {/* Hero Section */}
       <div>
         <WavyBackground className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
-          <div className="text-center">
-            <p className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-white headFont leading-tight">
+          <div className="text-center flex flex-col justify-center items-center">
+            <p className="text-4xl w-90 sm:text-5xl sm:w-[80%] md:text-6xl lg:text-7xl lg:w-[80%] xl:text-6xl xl:w-full font-bold text-white headFont leading-tight">
               We Give Your Brand a Creative Pulse.
             </p>
 
-            <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl text-white font-normal paraFont max-w-3xl mx-auto leading-relaxed">
+            <p className="mt-4 sm:mt-6 text-sm w-90 sm:text-base md:text-lg lg:text-xl xl:text-lg xl:w-[70%] text-white font-normal paraFont max-w-3xl mx-auto leading-relaxed">
               We design, build, and grow brands with creativity, technology, and
               strategy — turning ideas into impact.
             </p>
@@ -236,12 +236,12 @@ export default function Home() {
       </div>
 
       {/* who we are */}
-      <div className="bg-zinc-900 w-full h-[85vh] flex justify-center items-center">
+      <div className="bg-zinc-900 w-full h-[90vh] sm:h-full flex justify-center items-center">
         <Who />
       </div>
 
       {/* second */}
-      <div className="h-[100vh] w-[1200px] mt-20 mb-[100px] text-center flex justify-center items-center ">
+      <div className="h-[100vh] w-[1200px] mt-50 sm:mt-60 md:mt-10 mb-[100px] text-center flex justify-center items-center ">
         <HoverEffect items={projects} />
       </div>
 
