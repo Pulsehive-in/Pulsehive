@@ -3,6 +3,7 @@ import { WavyBackground } from "../ui/wavy-background";
 import { HoverEffect } from "../ui/card-hover-effect";
 import { StickyScroll } from "../ui/sticky-scroll-reveal";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
+import { ContainerScroll } from "../ui/container-scroll-animation";
 import Who from "../ui/Who-we-are";
 import { LayoutGrid } from "../ui/layout-grid";
 
@@ -244,14 +245,33 @@ export default function Home() {
       <div className="h-[100vh] w-[1200px] mt-50 sm:mt-60 md:mt-10 mb-[100px] text-center flex justify-center items-center ">
         <HoverEffect items={projects} />
       </div>
-    
+
       {/* third  */}
-      <div className="h-[90vh] flex flex-col justify-center items-center align-middle w-[100vw]">
-        <h1 className="text-white headFont text-5xl mb-15">
-          We provide effective design solutions
-        </h1>
-        <StickyScroll content={content} />
+
+      <div className="flex flex-col overflow-hidden">
+        <ContainerScroll
+          titleComponent={
+            <>
+              <h1 className="text-4xl font-semibold text-black dark:text-white">
+                Unleash the power of <br />
+                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                  Scroll Animations
+                </span>
+              </h1>
+            </>
+          }
+        >
+          <img
+            src={`/images/1.png`}
+            alt="hero"
+            height={720}
+            width={1400}
+            className="mx-auto rounded-2xl object-cover h-full object-center"
+            draggable={false}
+          />
+        </ContainerScroll>
       </div>
+
       {/* Portfolio */}
       <div className="h-[70vh] w-[1200px] my-30">
         <h1 className="text-gray-500 headFont text-xl ml-10">Selected Work</h1>

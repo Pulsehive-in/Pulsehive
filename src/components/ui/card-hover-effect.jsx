@@ -6,17 +6,17 @@ export const HoverEffect = ({ items, className }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-5 py-20 text-center">
+    <div className="w-full max-w-7xl mx-auto px-5 py-20 text-center sm:mt-90 md:mt-200 lg:mt-20">
       {/* Section Heading */}
-      <h1 className="text-white headFont text-3xl sm:text-4xl md:text-5xl font-bold mb-10 leading-tight">
-        We provide effective design and <br className="hidden sm:block" />{" "}
+      <h1 className="text-white headFont text-2xl sm:text-4xl md:text-5xl font-bold mb-10 leading-tight">
+        We provide effective design and <br className="sm:block" />{" "}
         marketing solutions.
       </h1>
 
       {/* Grid Section */}
       <div
         className={cn(
-          "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 py-10",
+          "grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 py-10",
           className
         )}
       >
@@ -58,7 +58,7 @@ export const Card = ({ className, children }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-6 sm:p-8 overflow-hidden bg-black border border-transparent dark:border-white/[0.1] group-hover:border-slate-600 transition-all duration-300 relative z-20",
+        "rounded-2xl h-full w-full p-6 sm:p-8 overflow-hidden bg-black border border-transparent dark:border-white/[0.1] group-hover:border-slate-600 transition-all duration-300 relative z-20 flex flex-col  items-center",
         className
       )}
     >
@@ -84,7 +84,7 @@ export const CardDescription = ({ className, children }) => {
   return (
     <p
       className={cn(
-        "mt-4 sm:mt-6 text-zinc-400 tracking-wide leading-relaxed text-sm sm:text-base",
+        "mt-4 sm:mt-6 text-zinc-400 tracking-wide leading-relaxed text-sm  sm:text-base w-90 ",
         className
       )}
     >
