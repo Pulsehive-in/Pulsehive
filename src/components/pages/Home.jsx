@@ -8,39 +8,39 @@ import { LayoutGrid } from "../ui/layout-grid";
 
 const projects = [
   {
-    title: "Stripe",
+    title: "Branding & Identity",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "We shape brand stories through impactful design and strategic thinking that leaves a lasting impression.",
+    link: "#",
   },
   {
-    title: "Netflix",
+    title: "Web Design & Development",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "From concept to code, we craft websites that combine beauty, speed, and seamless user experience.",
     link: "https://netflix.com",
   },
   {
-    title: "Google",
+    title: "Social Media Marketing",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "We build communities, not just followers — helping your brand connect authentically on every platform.",
     link: "https://google.com",
   },
   {
-    title: "Meta",
+    title: "Performance Marketing",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "We run data-driven ad campaigns that turn attention into action and clicks into conversions.",
     link: "https://meta.com",
   },
   {
-    title: "Amazon",
+    title: "Content & Video Production",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "Create scroll-stopping visuals and powerful narratives that make your brand impossible to ignore.",
     link: "https://amazon.com",
   },
   {
-    title: "Microsoft",
+    title: "SEO & Local Growth",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "Boost your visibility where it matters most — with search optimization that drives real, organic traffic.",
     link: "https://microsoft.com",
   },
 ];
