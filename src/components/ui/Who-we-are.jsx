@@ -82,11 +82,11 @@ function Counter({ to = 0, duration = 2000, suffix }) {
 
 function Who() {
   return (
-    <section className=" w-[1200px] py-20">
+    <section className=" w-[1200px] p-20">
       <div className="w-full flex flex-col  gap-15 items-center">
         {/* Left Side Text */}
-        <div>
-          <h2 className="animate-fadeUp text-2xl md:text-3xl lg:text-4xl paraFont font-bold w-[40%] leading-[50px] text-white">
+        <div className="text-center lg:text-left flex items-center justify-center lg:justify-start">
+          <h2 className="animate-fadeUp text-2xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl paraFont font-bold w-[40%] leading-[50px] text-white">
             We blend creativity,{" "}
             <span className="px-5 bg-[url('public/images/textt.jpg')] ml-5 rounded  bg-cover bg-center bg-no-repeat"></span>{" "}
             technology, and strategy to build brands that connect.
@@ -94,31 +94,31 @@ function Who() {
         </div>
 
         {/* Right Side */}
-        <div className="flex justify-between w-full">
+        <div className="flex justify-around w-full flex-col lg:flex-row gap-10 md:gap-10">
           {/* Image */}
-          <div className="flex">
+          <div className="flex justify-center">
             <img
               src="/images/3.png"
               alt="Creative Portrait"
-              className="rounded-xl w-full max-w-sm object-cover"
+              className="rounded-xl xl:w-full lg:w-80 md:w-70 sm:w-70 w-55 max-w-sm object-cover"
             />
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 divide-x divide-y divide-[#2a2a2a] border border-[#2a2a2a] rounded-xl overflow-hidden text-white paraFont">
-            <div className="flex flex-col items-center justify-center py-8 px-25">
+          <div className="grid grid-cols-1 lg:grid-cols-2 dvide-x divide-y divide-[#2a2a2a] border border-[#2a2a2a] rounded-xl overflow-hidden text-white paraFont">
+            <div className="flex flex-col items-center justify-center lg:border-r-2 lg:px-18 xl:py-8 xl:px-25">
               <Counter to={4000} duration={2000} />
               <p className="text-xl text-gray-400 mt-2">Happy customers</p>
             </div>
-            <div className="flex flex-col items-center justify-center py-8 px-25">
+            <div className="flex flex-col items-center justify-center sm:px-10 lg:px-18 xl:py-8 xl:px-25">
               <Counter to={95} duration={2000} suffix="%" />
               <p className="text-xl text-gray-400 mt-2">Satisfaction score</p>
             </div>
-            <div className="flex flex-col items-center justify-center py-8 px-25">
+            <div className="flex flex-col items-center justify-center sm:px-10 lg:px-18 xl:py-8 xl:px-25  lg:border-r-2">
               <Counter to={15} duration={2000} suffix="+" />
               <p className="text-xl text-gray-400 mt-2">Years of experience</p>
             </div>
-            <div className="flex flex-col items-center justify-center py-8 px-25">
+            <div className="flex flex-col items-center justify-center sm:px-10 lg:px-18 xl:py-8 xl:px-25">
               <Counter to={458} duration={2000} />
               <p className="text-xl text-gray-400 mt-2">Complete projects</p>
             </div>
