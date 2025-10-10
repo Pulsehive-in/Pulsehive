@@ -11,6 +11,9 @@ export const HoverEffect = ({
 
   return (
     <div>
+       <h1 className="text-white headFont text-5xl mb-15">
+                We provide effective design and <br /> marketing solutions.
+              </h1>
         <div
           className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10", className)}>
           {items.map((item, idx) => (

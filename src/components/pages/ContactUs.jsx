@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div className="h-[100vh] w-full grey-bg flex flex-col items-center">
+    <div className="h-[100vh] mb-40 w-full grey-bg flex flex-col items-center">
       <div className="min-h-screen w-[70%]  text-white px-6 py-12 md:px-16 lg:px-24 mt-30">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold mb-12">

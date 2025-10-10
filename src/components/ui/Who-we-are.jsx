@@ -86,9 +86,10 @@ function Who() {
       <div className="w-full flex flex-col  gap-15 items-center">
         {/* Left Side Text */}
         <div>
-          <h2 data-aos="fade-up" className="text-2xl md:text-3xl lg:text-4xl paraFont font-bold w-[40%] leading-[50px] text-white">
-            We blend art, tech, and storytelling to create powerful digital
-            identities that resonate
+          <h2 className="animate-fadeUp text-2xl md:text-3xl lg:text-4xl paraFont font-bold w-[40%] leading-[50px] text-white">
+            We blend creativity,{" "}
+            <span className="px-5 bg-[url('public/images/textt.jpg')] ml-5 rounded  bg-cover bg-center bg-no-repeat"></span>{" "}
+            technology, and strategy to build brands that connect.
           </h2>
         </div>
 

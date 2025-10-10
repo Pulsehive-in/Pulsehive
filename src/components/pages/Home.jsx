@@ -222,45 +222,45 @@ export default function Home() {
       {/* Hero Section */}
       <div>
         <WavyBackground className="max-w-4xl mx-auto pb-40">
-          <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-            Hero waves are cool
+          <p className="text-2xl md:text-4xl lg:text-7xl headFont text-white font-bold inter-var text-center">
+            Crafting Digital Experiences That Inspire.
           </p>
-          <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-            Leverage the power of canvas to create a beautiful hero section
+          <p className="text-base md:text-lg mt-4 text-white paraFont font-normal inter-var text-center">
+            We design, build, and grow brands with creativity, technology, and
+            strategy — turning ideas into impact.
           </p>
         </WavyBackground>
       </div>
 
       {/* who we are */}
-      <div className="bg-zinc-900 w-full h-[80vh] flex justify-center items-center">
+      <div className="bg-zinc-900 w-full h-[85vh] flex justify-center items-center">
         <Who />
       </div>
 
       {/* second */}
-      <div className="h-[100vh] w-[1200px] mt-20 mb-[100px] text-center ">
-        <h1 className="text-white text-5xl mb-15">
-          We provide effective design solutions
-        </h1>
+      <div className="h-[100vh] w-[1200px] mt-20 mb-[100px] text-center flex justify-center items-center ">
         <HoverEffect items={projects} />
       </div>
 
       {/* third  */}
       <div className="h-[90vh] flex flex-col justify-center items-center align-middle w-[100vw]">
-        <h1 className="text-white text-5xl mb-15">
+        <h1 className="text-white headFont text-5xl mb-15">
           We provide effective design solutions
         </h1>
         <StickyScroll content={content} />
       </div>
       {/* Portfolio */}
       <div className="h-[70vh] w-[1200px] my-30">
-        <h1 className="text-gray-500 text-xl ml-10">Selected Work</h1>
-        <p className="text-white text-6xl ml-10">Projects we're proud of</p>
+        <h1 className="text-gray-500 headFont text-xl ml-10">Selected Work</h1>
+        <p className="text-white headFont text-6xl ml-10">
+          Projects we're proud of
+        </p>
         <LayoutGrid cards={cards} />
       </div>
       {/* testimonials */}
       <div className="mt-30 h-[80vh] justify-center flex flex-col gap-10 mb-15">
-        <h1 className="text-gray-500 text-xl">Testimonials</h1>
-        <p className="text-white text-6xl w-[50%]">
+        <h1 className="text-gray-500 text-xl headFont">Testimonials</h1>
+        <p className="text-white text-6xl w-[50%] headFont">
           Trusted by forward-thinking brands
         </p>
         <InfiniteMovingCards
