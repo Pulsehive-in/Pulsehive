@@ -5,32 +5,32 @@ const projectCategories = [
   {
     video: "/images/portfolio-cat.mp4",
     heading: "Branding & Identity",
-    subheading: "DISNEY X COPERNI",
+    subheading: "Where your story takes visual shape",
   },
   {
     video: "/images/portfolio-cat.mp4",
     heading: "Website Design & Development",
-    subheading: "DISNEY X COPERNI",
+    subheading: "Design that engages. Experience that converts",
   },
   {
     video: "/images/portfolio-cat.mp4",
-    heading: "Social Media Management",
-    subheading: "DISNEY X COPERNI",
+    heading: "Digital Marketing & Strategy",
+    subheading: "Visibility that drives results",
   },
   {
     video: "/images/portfolio-cat.mp4",
-    heading: "Performance Marketing",
-    subheading: "DISNEY X COPERNI",
+    heading: "Creative Production",
+    subheading: "Turning idieas into cinematic visuals",
   },
   {
     video: "/images/portfolio-cat.mp4",
-    heading: "Content & Video Production",
-    subheading: "DISNEY X COPERNI",
+    heading: "Social Media & Content Creation",
+    subheading: "Content that connects and converts",
   },
   {
     video: "/images/portfolio-cat.mp4",
-    heading: "SEO & Local Optimization",
-    subheading: "DISNEY X COPERNI",
+    heading: "Advertising & Campaigns",
+    subheading: "Make your message impossible to ignore",
   },
 ];
 

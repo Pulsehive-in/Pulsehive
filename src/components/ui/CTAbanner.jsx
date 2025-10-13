@@ -3,6 +3,7 @@ import React from "react";
 import { AuroraBackground } from "../ui/aurora-background";
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { NavLink } from "react-router-dom";
 
 export default function CTAbanner() {
   return (
@@ -26,15 +27,17 @@ export default function CTAbanner() {
               Ready to transform your marketing? Book a free strategy session
               and let's discuss your goals.
             </p>
-            <HoverBorderGradient
-              containerClassName="rounded-full"
-              as="button"
-              className="bg-black text-white flex items-center space-x-2 cursor-pointer"
-            >
-              <span className="flex justify-center items-center gap-2">
-                Start your Project <ArrowForwardIcon />{" "}
-              </span>
-            </HoverBorderGradient>
+            <NavLink to="/contact-us">
+              <HoverBorderGradient
+                containerClassName="rounded-full"
+                as="button"
+                className="bg-black text-white flex items-center space-x-2 cursor-pointer"
+              >
+                <span className="flex justify-center items-center gap-2">
+                  Start your Project <ArrowForwardIcon />{" "}
+                </span>
+              </HoverBorderGradient>
+            </NavLink>
           </motion.div>
         </AuroraBackground>
       </div>
