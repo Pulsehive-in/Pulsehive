@@ -9,7 +9,12 @@ const portfoliodetailsData = [
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque voluptates repellat veritatis reiciendis magnam, quisquam fuga architecto! Culpa quisquam quo nesciunt at enim. Expedita est corrupti placeat consectetur, exercitationem aliquid et. Expedita nihil doloribus ipsa temporibus, enim ea, ut magni accusantium, voluptates iusto nulla odio incidunt illo nam labore.",
     works: [
       {
-        src: "/images/portfolio-cat.mp4",
+        src: "/images/brand1.jpg",
+        name: "lorem",
+        info: "Lorem ipsum dolor sit amet consectetur",
+      },
+      {
+        src: "/images/brand2.jpg",
         name: "lorem",
         info: "Lorem ipsum dolor sit amet consectetur",
       },
