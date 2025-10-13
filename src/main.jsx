@@ -6,6 +6,7 @@ import Home from "./components/pages/Home.jsx";
 import About from "./components/pages/About.jsx";
 import Services from "./components/pages/Services.jsx";
 import Portfolio from "./components/pages/Portfolio.jsx";
+import PortfolioDetails from "./components/pages/PortfolioDetails.jsx";
 import ContactUs from "./components/pages/ContactUs.jsx";
 import {
   createBrowserRouter,
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />}></Route>
       <Route path="/services" element={<Services />}></Route>
       <Route path="/portfolio" element={<Portfolio />}></Route>
+      <Route path="/portfolio/:id" element={<PortfolioDetails />}></Route>
       <Route path="/contact-us" element={<ContactUs />}></Route>
     </Route>
   )
