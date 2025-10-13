@@ -55,7 +55,7 @@ export default function PortfolioDetails() {
 
                 {/* Text content */}
                 <div
-                  className="absolute bottom-5 left-10 z-10 text-white opacity-0 translate-y-10 
+                  className="absolute bottom-5 left-10 z-10 text-white opacity-0 translate-y-7
                 group-hover:opacity-100 group-hover:translate-y-0 
                 transition-all duration-700 ease-in-out"
                 >
