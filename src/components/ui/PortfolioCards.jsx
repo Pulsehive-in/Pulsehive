@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const projectCategories = [
   {
@@ -35,11 +35,10 @@ const projectCategories = [
 ];
 
 export default function PortfolioCards() {
-  const {id} = useParams();
   return (
     <div className="flex flex-wrap justify-around mt-10 w-[85%] gap-y-20">
       {projectCategories.map((category, index) => (
-        <NavLink to={`/portfolio/${id}`} key={index}>
+        <NavLink to={`/portfolio/${index}`} key={index}>
           <div className="relative group">
             {/* Video */}
             <video
