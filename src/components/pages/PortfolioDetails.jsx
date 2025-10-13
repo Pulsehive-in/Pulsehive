@@ -42,13 +42,23 @@ export default function PortfolioDetails() {
             return (
               <div className="relative group">
                 {/* Video */}
-                <video
-                  src={item.src}
-                  autoPlay
-                  loop
-                  muted
-                  className="h-[500px] w-[470px] object-cover rounded-lg"
-                />
+                {[".mp4", ".mov", ".webm", ".avi"].some((ext) =>
+                  item.src.includes(ext)
+                ) ? (
+                  <video
+                    src={item.src}
+                    autoPlay
+                    loop
+                    muted
+                    className="h-[500px] w-[470px] object-cover rounded-lg"
+                  />
+                ) : (
+                  <img
+                    src={item.src}
+                    alt=""
+                    className="h-[500px] w-[470px] object-cover rounded-lg"
+                  />
+                )}
 
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
