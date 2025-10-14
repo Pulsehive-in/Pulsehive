@@ -264,18 +264,14 @@ const data = [
 export default function Services() {
   return (
     <div>
-      <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 ">
+      <BackgroundLines className="flex items-center justify-center w-full h-[100vh] flex-col px-4 ">
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
           Creative Solutions <br /> Real Result
         </h2>
-        <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-400 text-center">
-          Get the best advices from our experts, including expert artists,
-          painters, marathon enthusiasts and RDX, totally free.
-        </p>
       </BackgroundLines>
 
       <section className="flex items-center w-full justify-center h-[30vh]">
-        <h1 className="text-white text-4xl text-center leading-12 paraFont font-[500]">
+        <h1 className="text-white sm:text-2xl md:text-4xl text-center leading-12 paraFont font-[500]">
           Blending design, strategy, and <br />
           storytelling to help brands communicate <br /> their true{" "}
           <span className='px-8   bg-[url("/images/textIcon.avif")] bg-no-repeat bg-center'></span>{" "}
@@ -283,7 +279,7 @@ export default function Services() {
         </h1>
       </section>
 
-      <section className="h-[100vh] flex flex-col justify-center items-center gap-20">
+      <section className="mt-[600px] sm:mt-20 md:mt-0 flex flex-col justify-center items-center gap-20">
         {/* <h1 className='headFont text-white text-6xl'>Our Services</h1> */}
         <ExpandableCardDemo />
       </section>
