@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 export default function CTAbanner() {
   return (
     <>
-      <div className="mb-30 w-[1200px]">
+      <div className="mb-30 w-[90vw]  xl:w-[1200px]">
         <AuroraBackground>
           <motion.div
             initial={{ opacity: 0.0, y: 40 }}
@@ -20,10 +20,10 @@ export default function CTAbanner() {
             }}
             className="relative flex flex-col gap-4 justify-center px-20"
           >
-            <h1 className="text-7xl w-[50%] font-bold text-white">
+            <h1 className="text-xl sm:text-3xl sm:w-90 md:text-5xl lg:text-6xl xl:text-7xl xl:w-[50%] font-bold text-white">
               Let's create something extraordinary
             </h1>
-            <p className="text-2xl text-[#737373]">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#737373]">
               Ready to transform your marketing? Book a free strategy session
               and let's discuss your goals.
             </p>

@@ -237,7 +237,7 @@ export default function Home() {
       </div>
 
       {/* who we are */}
-      <div className="bg-zinc-900 w-full h-[90vh] sm:h-full flex justify-center items-center">
+      <div className="bg-zinc-900 w-[100vw] flex justify-center items-center">
         <Who />
       </div>
 
@@ -248,13 +248,13 @@ export default function Home() {
 
       {/* third  */}
 
-      <div className="flex flex-col overflow-hidden">
+      <div className="flex flex-col overflow-hidden sm:mt-90 md:mt-[600px] lg:mt-0">
         <ContainerScroll
           titleComponent={
             <>
-              <h1 className="text-4xl font-semibold text-black dark:text-white">
+              <h1 className="text-4xl font-semibold text-white">
                 Unleash the power of <br />
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                <span className="text-4xl md:text-[5rem] lg:text-[6rem] font-bold mt-1 leading-none">
                   Scroll Animations
                 </span>
               </h1>
@@ -266,24 +266,24 @@ export default function Home() {
             alt="hero"
             height={720}
             width={1400}
-            className="mx-auto rounded-2xl object-cover h-full object-center"
+            className="mx-auto rounded-2xl object-cover w-[90vw] h-full object-center"
             draggable={false}
           />
         </ContainerScroll>
       </div>
 
       {/* Portfolio */}
-      <div className="h-[70vh] w-[1200px] my-30">
+      <div className="h-[70vh] w-[95vw] xl:w-[1200px] my-30">
         <h1 className="text-gray-500 headFont text-xl ml-10">Selected Work</h1>
-        <p className="text-white headFont text-6xl ml-10">
+        <p className="text-white headFont text-2xl sm:text-4xl md:text-5xl lg:text-6xl ml-10">
           Projects we're proud of
         </p>
         <LayoutGrid cards={cards} />
       </div>
       {/* testimonials */}
-      <div className="mt-30 h-[80vh] justify-center flex flex-col gap-10 mb-15">
+      <div className="mt-30 h-[80vh] w-[90vw] xl:w-[95vw]  flex flex-col justify-center gap-10 mb-15">
         <h1 className="text-gray-500 text-xl headFont">Testimonials</h1>
-        <p className="text-white text-6xl w-[50%] headFont">
+        <p className="text-white text-2xl sm:text-4xl md:text-6xl lg:w-[50%] headFont">
           Trusted by forward-thinking brands
         </p>
         <InfiniteMovingCards

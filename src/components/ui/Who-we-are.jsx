@@ -86,7 +86,7 @@ function Who() {
       <div className="w-full flex flex-col  gap-15 items-center">
         {/* Left Side Text */}
         <div className="text-center lg:text-left flex items-center justify-center lg:justify-start">
-          <h2 className="animate-fadeUp text-2xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl paraFont font-bold w-[40%] leading-[50px] text-white">
+          <h2 className="animate-fadeUp text-xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl paraFont font-bold lg:w-[40%] leading-[50px] text-white">
             We blend creativity,{" "}
             <span className="px-5 bg-[url('public/images/textt.jpg')] ml-5 rounded  bg-cover bg-center bg-no-repeat"></span>{" "}
             technology, and strategy to build brands that connect.

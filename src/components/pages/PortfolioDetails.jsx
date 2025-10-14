@@ -17,7 +17,7 @@ export default function PortfolioDetails() {
         Loading...
       </p>
     );
-  }
+  } 
 
   return (
     <div className="text-white my-40 flex flex-col gap-20 w-full items-center">
