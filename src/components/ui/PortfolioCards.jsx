@@ -36,7 +36,7 @@ const projectCategories = [
 
 export default function PortfolioCards() {
   return (
-    <div className="flex flex-wrap justify-around mt-10 w-[85%] gap-y-20">
+    <div className="grid sm:grid-cols-2 mt-10 w-[85%] gap-10 xl:gap-y-20">
       {projectCategories.map((category, index) => (
         <NavLink to={`/portfolio/${index}`} key={index}>
           <div className="relative group">

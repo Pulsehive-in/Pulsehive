@@ -32,12 +32,12 @@ export default function PortfolioDetails() {
         muted
         className="w-[70vw] h-[50vh] object-cover object-center rounded-2xl"
       />
-      <div className="w-[50VW] text-center">
+      <div className="w-[90vw] xl:w-[50VW] text-center">
         <h1 className="text-4xl text-gray-400 headFont">{details.head}</h1>
         <p className="paraFont">{details.para}</p>
       </div>
       <div className="w-full flex justify-center">
-        <div className="w-[65%] grid grid-cols-3 gap-10">
+        <div className="w-[65%] sm:w-[85%] grid sm:grid-cols-2 xl:grid-cols-3 gap-10">
           {details.works.map((item) => {
             return (
               <div className="relative group">

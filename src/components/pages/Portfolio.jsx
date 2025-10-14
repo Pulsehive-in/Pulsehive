@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <div className="text-white flex flex-col my-40 items-start w-full">
       <h1 className="ml-10 text-gray-300 font-bold">FILTER BY</h1>
-      <div className="text-7xl font-bold ml-10 flex flex-col gap-4">
+      <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-10 flex flex-col gap-4">
         <h1 className="hover:text-gray-400 transition duration-300 ease-in-out">
           Creative Direction
         </h1>
