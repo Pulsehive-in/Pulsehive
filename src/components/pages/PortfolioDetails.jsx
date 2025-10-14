@@ -17,7 +17,7 @@ export default function PortfolioDetails() {
         Loading...
       </p>
     );
-  } 
+  }
 
   return (
     <div className="text-white my-40 flex flex-col gap-20 w-full items-center">
@@ -30,6 +30,8 @@ export default function PortfolioDetails() {
         autoPlay
         loop
         muted
+        playsInline
+        playsinline
         className="w-[70vw] h-[50vh] object-cover object-center rounded-2xl"
       />
       <div className="w-[90vw] xl:w-[50VW] text-center">
@@ -50,6 +52,8 @@ export default function PortfolioDetails() {
                     autoPlay
                     loop
                     muted
+                    playsInline
+                    playsinline
                     className="h-[500px] w-[470px] object-cover rounded-lg"
                   />
                 ) : (
