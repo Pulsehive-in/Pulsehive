@@ -48,6 +48,7 @@ export default function PortfolioCards() {
               muted
               playsInline
               playsinline
+              controls={false}
               className="rounded-4xl transition-transform duration-500 group-hover:scale-90 group-hover:rounded-none"
             />
 

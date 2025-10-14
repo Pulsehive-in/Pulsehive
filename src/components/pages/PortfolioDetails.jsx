@@ -32,6 +32,7 @@ export default function PortfolioDetails() {
         muted
         playsInline
         playsinline
+        controls={false}
         className="w-[70vw] h-[50vh] object-cover object-center rounded-2xl"
       />
       <div className="w-[90vw] xl:w-[50VW] text-center">
@@ -54,6 +55,7 @@ export default function PortfolioDetails() {
                     muted
                     playsInline
                     playsinline
+                    controls={false}
                     className="h-[500px] w-[470px] object-cover rounded-lg"
                   />
                 ) : (
