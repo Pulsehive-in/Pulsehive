@@ -31,7 +31,7 @@ export default function PortfolioDetails() {
         loop
         muted
         playsInline
-        playsinline
+        webkit-playsinline
         controls={false}
         className="w-[70vw] h-[50vh] object-cover object-center rounded-2xl"
       />
@@ -54,7 +54,7 @@ export default function PortfolioDetails() {
                     loop
                     muted
                     playsInline
-                    playsinline
+                    webkit-playsinline
                     controls={false}
                     className="h-[500px] w-[470px] object-cover rounded-lg"
                   />

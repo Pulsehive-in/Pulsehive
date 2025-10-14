@@ -71,7 +71,7 @@ function Products() {
                 autoPlay
                 loop
                 playsInline
-                playsinline
+                webkit-playsinline
                 controls={false}
                 src="https://files.refokus.com/storage/v1/object/public/Portfolio%20Videos/layoutland-43.webm"
               ></video>
@@ -87,7 +87,7 @@ function Products() {
                 autoPlay
                 loop
                 playsInline
-                playsinline
+                webkit-playsinline
                 controls={false}
                 src="https://files.refokus.com/storage/v1/object/public/Portfolio%20Videos/umault-43.webm"
               ></video>
@@ -103,7 +103,7 @@ function Products() {
                 autoPlay
                 loop
                 playsInline
-                playsinline
+                webkit-playsinline
                 controls={false}
                 src="https://files.refokus.com/storage/v1/object/public/Portfolio%20Videos/weglotlikemagic-43.webm"
               ></video>
@@ -119,7 +119,7 @@ function Products() {
                 autoPlay
                 loop
                 playsInline
-                playsinline
+                webkit-playsinline
                 controls={false}
                 src="https://files.refokus.com/storage/v1/object/public/Portfolio%20Videos/cula-43.webm"
               ></video>
@@ -135,7 +135,7 @@ function Products() {
                 autoPlay
                 loop
                 playsInline
-                playsinline
+                webkit-playsinline
                 controls={false}
                 src="https://files.refokus.com/storage/v1/object/public/Portfolio%20Videos/ttr-43.webm"
               ></video>
