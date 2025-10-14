@@ -253,9 +253,9 @@ export default function Home() {
           titleComponent={
             <>
               <h1 className="text-4xl font-semibold text-white">
-                Unleash the power of <br />
+                We Don’t Just Design <br />
                 <span className="text-4xl md:text-[5rem] lg:text-[6rem] font-bold mt-1 leading-none">
-                  Scroll Animations
+                  We Build Experiences
                 </span>
               </h1>
             </>
