@@ -10,6 +10,11 @@ body {
   src: url("./fonts/Satoshi-Regular.otf") format("opentype");
 }
 
+video {
+  pointer-events: none;
+}
+
+
 .headFont {
   font-family: "Playfair Display", serif;
 }
