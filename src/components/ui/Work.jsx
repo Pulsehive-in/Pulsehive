@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion"
 
 function Work() {
@@ -48,16 +49,33 @@ function Work() {
   });
 
   return (
-    <div className='w-full'>
-        <div className='relative max-w-screen-xl mx-auto text-center mt-20'>
-            <h1 className='text-[30vw] font["SF_PRO"] leading-none font-medium tracking-tight select-none '>Work</h1>
-            <div className='absolute top-0 w-full h-full'>
-                {images.map((elem, index)=> (elem.isActive && (<img key={index} className='absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]' src={elem.url} style={{top: elem.top, left: elem.left}} alt="" />) ) )}
-            </div>
+    <div className="w-full h-[90vh]">
+      <div className="relative h-full  mx-auto text-center mt-20">
+        <BackgroundGradientAnimation>
+          <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
+            <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
+              Made by dreamers, <br/> for brands
+            </p>
+          </div>
+        </BackgroundGradientAnimation>
+        <div className="absolute top-0 w-full h-full">
+          {images.map(
+            (elem, index) =>
+              elem.isActive && (
+                <img
+                  key={index}
+                  className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]"
+                  src={elem.url}
+                  style={{ top: elem.top, left: elem.left }}
+                  alt=""
+                />
+              )
+          )}
         </div>
-
+         
+      </div>
     </div>
-  )
+  );
 }
 
 export default Work
