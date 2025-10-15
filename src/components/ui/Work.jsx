@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
+import { BackgroundBeamsWithCollision } from "./background-beams-with-collision";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion"
 
 function Work() {
@@ -49,22 +49,28 @@ function Work() {
   });
 
   return (
-    <div className="w-full h-[90vh]">
-      <div className="relative h-full  mx-auto text-center mt-20">
-        <BackgroundGradientAnimation>
-          <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
-            <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
-              Made by dreamers, <br/> for brands
-            </p>
+    <div className="w-full h-full">
+      <div className="relative mx-auto text-center">
+        <BackgroundBeamsWithCollision>
+      <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-white font-sans tracking-tight headFont">
+        Made by Dreamers{" "}
+        <div className="relative mx-auto w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))] headFont">
+          <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+            <span className="">for Brands</span>
           </div>
-        </BackgroundGradientAnimation>
+          <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">
+            <span className="">for Brands</span>
+          </div>
+        </div>
+      </h2>
+    </BackgroundBeamsWithCollision>
         <div className="absolute top-0 w-full h-full">
           {images.map(
             (elem, index) =>
               elem.isActive && (
                 <img
                   key={index}
-                  className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]"
+                  className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%] z-50"
                   src={elem.url}
                   style={{ top: elem.top, left: elem.left }}
                   alt=""
