@@ -20,10 +20,10 @@ export default function CTAbanner() {
             }}
             className="relative flex flex-col gap-4 justify-center px-20"
           >
-            <h1 className="text-xl sm:text-3xl sm:w-90 md:text-5xl lg:text-6xl xl:text-7xl xl:w-[50%] font-bold text-white">
+            <h1 className="text-xl sm:text-3xl headFont sm:w-90 md:text-5xl lg:text-6xl xl:text-7xl xl:w-[50%] font-bold text-white">
               Let's create something extraordinary
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-[#737373]">
+            <p className="text-lg sm:text-xl paraFont md:text-2xl text-[#737373]">
               Ready to transform your marketing? Book a free strategy session
               and let's discuss your goals.
             </p>
@@ -33,7 +33,7 @@ export default function CTAbanner() {
                 as="button"
                 className="bg-black text-white flex items-center space-x-2 cursor-pointer"
               >
-                <span className="flex justify-center items-center gap-2">
+                <span className="flex justify-center paraFont items-center gap-2">
                   Start your Project <ArrowForwardIcon />{" "}
                 </span>
               </HoverBorderGradient>

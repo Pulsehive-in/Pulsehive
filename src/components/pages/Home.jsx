@@ -281,11 +281,7 @@ export default function Home() {
         <LayoutGrid cards={cards} />
       </div>
       {/* testimonials */}
-      <div className="mt-30 h-[80vh] w-[90vw] xl:w-[95vw]  flex flex-col justify-center gap-10 mb-15">
-        <h1 className="text-gray-500 text-xl headFont">Testimonials</h1>
-        <p className="text-white text-2xl sm:text-4xl md:text-6xl lg:w-[50%] headFont">
-          Trusted by forward-thinking brands
-        </p>
+      <div className="mt-30 h-[80vh] w-[90vw] xl:w-[1200px]  flex flex-col justify-center gap-10 mb-15">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
